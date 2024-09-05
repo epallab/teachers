@@ -1,0 +1,40 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #ffecd2;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+
+.wish {
+  background-color: white;
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.wish h1 {
+  color: #ff6f61;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.wish p {
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.wish .signature {
+  margin-top: 40px;
+  font-style: italic;
+  color: #555;
+}
